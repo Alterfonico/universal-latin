@@ -13,7 +13,7 @@ h1 {
 	color: white;
 }
 h2 {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 a {
     transition: background-color 0.3s ease;
@@ -172,9 +172,6 @@ nav ul {
     border: 1px solid #ececec;
     background-color: white;
 }
-.testimonial-card p {
-/*    font-style: italic;					*/
-}
 .client-wrap {
 	display: flex;
 }
@@ -185,7 +182,6 @@ nav ul {
     height: 64px;
     border-radius: 50%;
 }
-.client-text {}
 .client-text h3 {
 	margin: 0;
 	font-size: 1.2rem;
@@ -227,11 +223,7 @@ nav ul {
 }
 
 /* Footer Section */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 60px;
-}
+.footer { background-color: #333; padding: 60px; }
 .footer a:hover {color: white; }
 .grid-container {
     display: grid;
@@ -239,6 +231,7 @@ nav ul {
 		'logo contact site'
 		'copyright legal social';
     gap: 20px;
+    color: #fff;
 }
 .grid-container h3 { 
 	font-size: 24px; 
