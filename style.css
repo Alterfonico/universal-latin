@@ -111,6 +111,21 @@ nav img {
 }
 
 /* Social Proof Section */
+.sproof {
+	display: flex;
+	justify-content: space-around;
+}
+.sproof img { opacity: 60%; }
+.sproof img:hover { opacity: 1; }
+/* logos id's */
+#img-westwood { width: 7vw; }
+#img-machete { width: 9vw; }
+#img-ocesa { width: 10vw; }
+#img-uni { width: 12vw; }
+#img-sony { width: 5vw; }
+#img-rock { width: 13vw; }
+#img-ev { width: 12vw; }
+
 /* Book Section */
 .div-spacing { height: 60px; }
 /* Steps Section */
@@ -142,6 +157,10 @@ nav img {
     margin-bottom: -8px;
 	color: gold;
 }
+.fleet-grid ul { padding-left: 10vw; }
+.fleet-grid li { margin-bottom: 8px; }
+.fleet-grid img { height: 10vw;  margin: 0 auto; }
+/* element id's for grid */
 #h2-suv { grid-area: h2-suv; }
 #h2-special { grid-area: h2-special; }
 #h2-bus { grid-area: h2-bus; }
@@ -151,9 +170,6 @@ nav img {
 #img-suv { grid-area: img-suv; }
 #img-special { grid-area: img-special; }
 #img-bus { grid-area: img-bus; }
-.fleet-grid ul { padding-left: 10vw; }
-.fleet-grid li { margin-bottom: 8px; }
-.fleet-grid img { height: 10vw;  margin: 0 auto; }
 
 /* Testimonials Section */
 .testimonials {
@@ -312,10 +328,17 @@ nav img {
 	nav { padding: 20px; }
 	nav ul { font-size: 1.9vw; }
 	/* Hero Section */
-	.hero { padding: 80px 60px; background-image: linear-gradient(to right, black 400px, rgba(0,0,0,0)), url(images/escalade-hero-3.png); background-position: bottom; }
+	.hero { 
+		padding: 80px 60px; 
+		background-image: linear-gradient(to right, black 400px, rgba(0,0,0,0)), url(images/escalade-hero-3.png); 
+		background-position: bottom; 
+	}
 	.hero h1 { font-size: 2.5rem; }
 	.hero h2 { font-size: 1.5rem; }
 	.hero p { font-size: 1.2rem; min-width: 270px; }
+	/* Social Proof Section */
+	.sproof { flex-flow: wrap; }
+	.sproof img { width: 120px !important; }
 	/* Fleet Section */
 	.fleet { padding: 0 0 80px; }
 	.fleet-grid {
@@ -368,6 +391,17 @@ nav img {
         background-position: center;
         height: 400px;
 	}
+	/* Social Proof Section */
+	.sproof { overflow: scroll; justify-content: flex-start; }
+	.sproof::-webkit-scrollbar { display: none; }
+	.sproof img { padding: 0 3vw; }
+	#img-westwood { width: 80px; }
+    #img-machete { width: 100px; }
+    #img-ocesa { width: 120px; }
+    #img-uni { width: 140px; }
+    #img-sony { width: 60px; }
+    #img-rock { width: 140px; }
+    #img-ev { width: 120px; }
 	/* Fleet Section */
 	.fleet { padding: 0 0 40px; }
 	.fleet h2 { margin: 0; }
